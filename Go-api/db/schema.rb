@@ -35,16 +35,18 @@ ActiveRecord::Schema.define(version: 20180321225210) do
     t.string "email"
     t.string "username"
     t.text "events_attended"
-    t.string "followers"
-    t.string "following"
-    t.string "location"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "longitude"
+    t.string "latitude"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
   create_table "videos", force: :cascade do |t|
     t.string "video_url"
+    t.integer "likes"
+    t.integer "views"
+    t.string "duration"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "user_id"

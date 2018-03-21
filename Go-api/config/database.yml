@@ -1,3 +1,4 @@
+
 # SQLite version 3.x
 #   gem install sqlite3
 #
@@ -9,8 +10,8 @@ test:
   encoding: unicode
   database: Go_test
   pool: 5
-  username: chrislmauldin
-  password: postgres
+  username: elmerastudillo
+  password: 12345
 
 
 development:
@@ -18,5 +19,5 @@ development:
     encoding: unicode
     database: Go_development
     pool: 5
-    username: chrislmauldin
-    password: postgres
+    username: elmerastudillo
+    password: 12345

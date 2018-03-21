@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180321213846) do
+ActiveRecord::Schema.define(version: 20180321222623) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,16 +32,18 @@ ActiveRecord::Schema.define(version: 20180321213846) do
     t.string "email"
     t.string "username"
     t.text "events_attended"
-    t.string "followers"
-    t.string "following"
-    t.string "location"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "longitude"
+    t.string "latitude"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
   create_table "videos", force: :cascade do |t|
     t.string "video_url"
+    t.integer "likes"
+    t.integer "views"
+    t.string "duration"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "user_id"

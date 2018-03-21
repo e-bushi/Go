@@ -48,6 +48,9 @@ ActiveRecord::Schema.define(version: 20180321222623) do
     t.datetime "updated_at", null: false
     t.bigint "user_id"
     t.bigint "event_id"
+    t.integer "likes"
+    t.integer "views"
+    t.string "duration"
     t.index ["event_id"], name: "index_videos_on_event_id"
     t.index ["user_id"], name: "index_videos_on_user_id"
   end

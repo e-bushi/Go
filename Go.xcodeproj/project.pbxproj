@@ -7,20 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBBB117FCD2158AA07711903 /* Pods_Go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26863C3F26F3765F40C3C4D /* Pods_Go.framework */; };
+		BF8498412077CFC500570755 /* VideoShootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8498402077CFC500570755 /* VideoShootViewController.swift */; };
+		BF8498462077E09E00570755 /* VideoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8498452077E09E00570755 /* VideoCaptureView.swift */; };
+		BF8498482077E4C400570755 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8498472077E4C400570755 /* CameraButton.swift */; };
+		BF84984B2077EDC300570755 /* Date+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84984A2077EDC300570755 /* Date+Shared.swift */; };
+		BF84984D2078006300570755 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84984C2078006300570755 /* VideoPlayerView.swift */; };
+		BF84984F207800D900570755 /* VideoPlayBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84984E207800D900570755 /* VideoPlayBackViewController.swift */; };
+		BF8498512078252000570755 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8498502078251F00570755 /* ProgressView.swift */; };
+		BF849853207845B800570755 /* SwitchCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF849852207845B800570755 /* SwitchCamButton.swift */; };
+		BF84985720786B0900570755 /* ExitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84985620786B0900570755 /* ExitButton.swift */; };
+		BF8498592078700B00570755 /* SaveMovieButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8498582078700B00570755 /* SaveMovieButton.swift */; };
 		F6389C422059E13C00990A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6389C412059E13C00990A5A /* AppDelegate.swift */; };
-		F6389C442059E13C00990A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6389C432059E13C00990A5A /* ViewController.swift */; };
-		F6389C472059E13C00990A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6389C452059E13C00990A5A /* Main.storyboard */; };
 		F6389C492059E13C00990A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6389C482059E13C00990A5A /* Assets.xcassets */; };
-		F6389C4C2059E13C00990A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6389C4A2059E13C00990A5A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		939FDF78333C470FB1DAE2A1 /* Pods-Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go/Pods-Go.debug.xcconfig"; sourceTree = "<group>"; };
+		BF8498402077CFC500570755 /* VideoShootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoShootViewController.swift; sourceTree = "<group>"; };
+		BF8498452077E09E00570755 /* VideoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureView.swift; sourceTree = "<group>"; };
+		BF8498472077E4C400570755 /* CameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		BF84984A2077EDC300570755 /* Date+Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Shared.swift"; sourceTree = "<group>"; };
+		BF84984C2078006300570755 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		BF84984E207800D900570755 /* VideoPlayBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayBackViewController.swift; sourceTree = "<group>"; };
+		BF8498502078251F00570755 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		BF849852207845B800570755 /* SwitchCamButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCamButton.swift; sourceTree = "<group>"; };
+		BF84985620786B0900570755 /* ExitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitButton.swift; sourceTree = "<group>"; };
+		BF8498582078700B00570755 /* SaveMovieButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMovieButton.swift; sourceTree = "<group>"; };
+		D5C9C8E9C7542C6EFCD994F2 /* Pods-Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go/Pods-Go.release.xcconfig"; sourceTree = "<group>"; };
+		F26863C3F26F3765F40C3C4D /* Pods_Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6389C3E2059E13C00990A5A /* Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Go.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6389C412059E13C00990A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6389C432059E13C00990A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F6389C462059E13C00990A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6389C482059E13C00990A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F6389C4B2059E13C00990A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6389C4D2059E13D00990A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,17 +47,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBB117FCD2158AA07711903 /* Pods_Go.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D9F3FE253A8D6F4E58D780F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26863C3F26F3765F40C3C4D /* Pods_Go.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9646682F95689E761880EAD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939FDF78333C470FB1DAE2A1 /* Pods-Go.debug.xcconfig */,
+				D5C9C8E9C7542C6EFCD994F2 /* Pods-Go.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF8498362077CE8400570755 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF8498402077CFC500570755 /* VideoShootViewController.swift */,
+				BF84984E207800D900570755 /* VideoPlayBackViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF84983F2077CE9700570755 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF8498442077E08200570755 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF8498442077E08200570755 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BF8498452077E09E00570755 /* VideoCaptureView.swift */,
+				BF8498502078251F00570755 /* ProgressView.swift */,
+				BF8498472077E4C400570755 /* CameraButton.swift */,
+				BF849852207845B800570755 /* SwitchCamButton.swift */,
+				BF84984C2078006300570755 /* VideoPlayerView.swift */,
+				BF84985620786B0900570755 /* ExitButton.swift */,
+				BF8498582078700B00570755 /* SaveMovieButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BF8498492077EDC300570755 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF84984A2077EDC300570755 /* Date+Shared.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F6389C352059E13C00990A5A = {
 			isa = PBXGroup;
 			children = (
 				F6389C402059E13C00990A5A /* Go */,
 				F6389C3F2059E13C00990A5A /* Products */,
+				9646682F95689E761880EAD5 /* Pods */,
+				4D9F3FE253A8D6F4E58D780F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +131,11 @@
 		F6389C402059E13C00990A5A /* Go */ = {
 			isa = PBXGroup;
 			children = (
+				BF8498492077EDC300570755 /* Extensions */,
+				BF8498362077CE8400570755 /* Controllers */,
+				BF84983F2077CE9700570755 /* Views */,
 				F6389C412059E13C00990A5A /* AppDelegate.swift */,
-				F6389C432059E13C00990A5A /* ViewController.swift */,
-				F6389C452059E13C00990A5A /* Main.storyboard */,
 				F6389C482059E13C00990A5A /* Assets.xcassets */,
-				F6389C4A2059E13C00990A5A /* LaunchScreen.storyboard */,
 				F6389C4D2059E13D00990A5A /* Info.plist */,
 			);
 			path = Go;
@@ -71,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6389C502059E13D00990A5A /* Build configuration list for PBXNativeTarget "Go" */;
 			buildPhases = (
+				2295979192B2A8A50F1BFB4E /* [CP] Check Pods Manifest.lock */,
 				F6389C3A2059E13C00990A5A /* Sources */,
 				F6389C3B2059E13C00990A5A /* Frameworks */,
 				F6389C3C2059E13C00990A5A /* Resources */,
+				DAE3838AFDE377122CD4204A /* [CP] Embed Pods Frameworks */,
+				37572B521836381BACA8C2E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,44 +203,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6389C4C2059E13C00990A5A /* LaunchScreen.storyboard in Resources */,
 				F6389C492059E13C00990A5A /* Assets.xcassets in Resources */,
-				F6389C472059E13C00990A5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2295979192B2A8A50F1BFB4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37572B521836381BACA8C2E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go/Pods-Go-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE3838AFDE377122CD4204A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Go/Pods-Go-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go/Pods-Go-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6389C3A2059E13C00990A5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6389C442059E13C00990A5A /* ViewController.swift in Sources */,
+				BF8498462077E09E00570755 /* VideoCaptureView.swift in Sources */,
+				BF8498592078700B00570755 /* SaveMovieButton.swift in Sources */,
+				BF84984F207800D900570755 /* VideoPlayBackViewController.swift in Sources */,
+				BF84984B2077EDC300570755 /* Date+Shared.swift in Sources */,
+				BF8498412077CFC500570755 /* VideoShootViewController.swift in Sources */,
+				BF849853207845B800570755 /* SwitchCamButton.swift in Sources */,
+				BF84985720786B0900570755 /* ExitButton.swift in Sources */,
+				BF8498482077E4C400570755 /* CameraButton.swift in Sources */,
+				BF8498512078252000570755 /* ProgressView.swift in Sources */,
 				F6389C422059E13C00990A5A /* AppDelegate.swift in Sources */,
+				BF84984D2078006300570755 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F6389C452059E13C00990A5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6389C462059E13C00990A5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F6389C4A2059E13C00990A5A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6389C4B2059E13C00990A5A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F6389C4E2059E13D00990A5A /* Debug */ = {
@@ -272,10 +394,11 @@
 		};
 		F6389C512059E13D00990A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939FDF78333C470FB1DAE2A1 /* Pods-Go.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K62Y623GK6;
+				DEVELOPMENT_TEAM = CGUE68EN3T;
 				INFOPLIST_FILE = Go/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "e-bushi.Go";
@@ -287,10 +410,11 @@
 		};
 		F6389C522059E13D00990A5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C9C8E9C7542C6EFCD994F2 /* Pods-Go.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K62Y623GK6;
+				DEVELOPMENT_TEAM = CGUE68EN3T;
 				INFOPLIST_FILE = Go/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "e-bushi.Go";
